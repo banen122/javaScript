@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Different Ways To Create Event</h1>
+    <button onclick="alert(`I'm version 1`)">Click Me! (Version 1:event inline tag)</button>
+    <button >Click Me! (Version 2:event create inside js using onClick property)</button>
+    <button >Click Me! (Version 3:event create inside js using addEventListener method or function)</button>
+
+    <br><br>
+    <h1>Different Between onClick And addEventListener</h1>
+    <button id="onclick" >event created by onclick can't call more than one function assigned to same button</button>
+    <button id="addEventListener" >event created by addEventListener can call more than one function assigned to same button</button>
+
+    <script src="event.js"></script>
+</body>
+</html>
